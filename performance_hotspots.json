@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "hotspots_identified": 2
+  },
+  "hotspots": [
+    {
+      "file": "backend/functions/src/transactions.ts",
+      "function": "getTransactionsForUser",
+      "line": 88,
+      "type": "N+1 Query",
+      "message": "The function makes a separate database call for each transaction to retrieve category details, leading to an N+1 query problem."
+    },
+    {
+      "file": "mobile/lib/presentation/pages/analytics_page.dart",
+      "function": "buildChart",
+      "line": 150,
+      "type": "Inefficient Rendering",
+      "message": "The chart widget is rebuilt on every state change, even when its data has not changed, causing UI jank."
+    }
+  ]
+} 

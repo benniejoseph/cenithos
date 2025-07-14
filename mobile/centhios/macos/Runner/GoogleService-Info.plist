@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>528127801498-s232hl6ingflg4hjpm9ku5k9ujlrsva3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.528127801498-s232hl6ingflg4hjpm9ku5k9ujlrsva3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>528127801498-u3bdoogphdt5qq3gq9jl24m686ns5sgt.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQZTLZIDmNjR0njy8omoqus1qtbCOf0cY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>528127801498</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.centhios</string>
+	<key>PROJECT_ID</key>
+	<string>cenithos</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cenithos.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:528127801498:ios:7ce7031d33b6bdff654723</string>
+</dict>
+</plist>

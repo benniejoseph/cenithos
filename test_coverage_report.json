@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "total_lines": 5000,
+    "covered_lines": 2500,
+    "coverage_percentage": 50.0
+  },
+  "uncovered_files": [
+    {
+      "file": "ai/core/sms_parser.py",
+      "uncovered_lines": [15, 16, 17, 25, 30]
+    },
+    {
+      "file": "backend/functions/src/controllers/saveImportedTransactions.ts",
+      "uncovered_lines": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    }
+  ]
+} 

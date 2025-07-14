@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+openai
+python-dotenv
+google-cloud-firestore
+firebase-admin
+pytest
+pytest-mock
+requests
+langchain
+langchain-openai 
+google-generativeai 

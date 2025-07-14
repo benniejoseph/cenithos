@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {"id": "ai", "type": "directory"},
+    {"id": "backend", "type": "directory"},
+    {"id": "mobile", "type": "directory"},
+    {"id": "ai/main.py", "type": "file"},
+    {"id": "backend/functions/src/index.ts", "type": "file"},
+    {"id": "mobile/lib/main.dart", "type": "file"}
+  ],
+  "edges": [
+    {"source": "ai/main.py", "target": "backend/functions/src/index.ts", "label": "API Call"},
+    {"source": "mobile/lib/main.dart", "target": "backend/functions/src/index.ts", "label": "API Call"}
+  ]
+} 

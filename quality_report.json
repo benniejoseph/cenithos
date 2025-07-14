@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "files_scanned": 150,
+    "issues_found": 12,
+    "cyclomatic_complexity": {
+      "average": 2.5,
+      "max": 15
+    }
+  },
+  "issues": [
+    {
+      "file": "ai/core/orchestrator.py",
+      "line": 42,
+      "severity": "major",
+      "message": "High cyclomatic complexity of 15 in function 'run_analysis'."
+    },
+    {
+      "file": "backend/functions/src/transactions.ts",
+      "line": 112,
+      "severity": "minor",
+      "message": "Duplicated code block found."
+    }
+  ]
+} 

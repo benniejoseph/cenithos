@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0",
+  "new_collections": [
+    {
+      "name": "goals",
+      "description": "Stores user-defined financial goals.",
+      "fields": {
+        "userId": "string (foreign key to users collection)",
+        "name": "string",
+        "targetAmount": "number",
+        "currentAmount": "number",
+        "targetDate": "timestamp",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      },
+      "rules": "allow read, write: if request.auth.uid == resource.data.userId;"
+    },
+    {
+      "name": "budgets",
+      "description": "Stores user-defined budgets.",
+      "fields": {
+        "userId": "string (foreign key to users collection)",
+        "name": "string",
+        "period": "string ('monthly', 'yearly')",
+        "limit": "number",
+        "categories": "array<string>",
+        "createdAt": "timestamp",
+        "updatedAt": "timestamp"
+      },
+      "rules": "allow read, write: if request.auth.uid == resource.data.userId;"
+    }
+  ]
+} 

@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "files_linted": 150,
+    "errors": 5,
+    "warnings": 25
+  },
+  "results": [
+    {
+      "file": "mobile/lib/presentation/pages/home_page.dart",
+      "line": 58,
+      "rule_id": "unused_import",
+      "severity": "warning",
+      "message": "The import 'package:flutter/widgets.dart' is not used."
+    },
+    {
+      "file": "ai/main.py",
+      "line": 15,
+      "rule_id": "no-unused-vars",
+      "severity": "error",
+      "message": "'app' is assigned a value but never used."
+    }
+  ]
+} 

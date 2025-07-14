@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    NOTE: This file contains a static IP address for local development.
+    If your computer's local IP address changes, you must update the domain entry
+    for '192.168.29.82' to match the new IP address defined in:
+    mobile/centhios/lib/core/config.dart
+-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- Emulator-to-localhost -->
+        <domain includeSubdomains="true">192.168.29.82</domain> <!-- Local development machine IP -->
+    </domain-config>
+</network-security-config> 
