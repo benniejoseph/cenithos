@@ -10,6 +10,7 @@ pglite-debug.log
 .firebase/
 *.secret
 *.local
+.runtimeconfig.json
 
 # Python / AI
 __pycache__/
@@ -18,6 +19,15 @@ __pycache__/
 venv/
 env/
 *.env
+*.backup
+*_backup.py
+*.coverage
+coverage.json
+ai/deployed_source_*.zip
+ai/deployed_source_temp/
+ai/main_*.py
+ai/requirements_backup.txt
+*.log
 
 # Flutter / Dart
 build/
@@ -32,6 +42,7 @@ build/
 # Node.js / Backend Functions
 backend/functions/node_modules/
 backend/functions/lib/
+backend/functions/npm-cache/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
